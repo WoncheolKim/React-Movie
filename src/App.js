@@ -1,11 +1,11 @@
-import Button from "./Button";
-import styles from "./App.module.css";
+import React from "react";
+import Potato from "./Potato";
 
 function App() {
   return (
     <div>
-      <h1 className={styles.title}>Welcome back!!</h1>
-      <Button text={"Continue"} />
+      <h1>Welcome back!!</h1>
+      <Potato />
     </div>
   );
 }
